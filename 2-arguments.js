@@ -1,23 +1,19 @@
-const name= 'lisoletuuuu';
+/*const name= ['lisoletu', 'lina']
 
-/*if (name.length >= 10) {
+if (name.length === 0) {
   console.log('No argument');
-}
-else if (name.length >= 8 || name.includes('e')) {
+};
+
+
+/*else if (name.length === 1) {
   console.log('Argument found');
 } else {
   console.log('Arguments found');
-}*/
+};*/
 
-
-if (name.length >= 10) {
-  console.log('No argument');
-}
-
-if (name.length >= 5) {
-  console.log('Argument found');
-}
-
-if (name.length < 5) {
-  console.log('Arguments found');
-}
+function name(){
+    console.log ('No argument');
+    console.log ('Argument found');
+    console.log ('Argument found'); 
+};
+name();
