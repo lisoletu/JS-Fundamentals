@@ -21,6 +21,6 @@ function noofarguments(...args){
   console.log(`${count} Arguments found `);
 };
 }
-noofarguments(); 
+noofarguments(3,5, 'lina'); 
 noofarguments('pear');
-noofarguments(3, 5, 'lina');
+noofarguments();
