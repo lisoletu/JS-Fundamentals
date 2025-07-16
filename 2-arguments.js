@@ -1,14 +1,14 @@
-/*const name='liso'
+const name='liso'
 const count = liso.length
-if (name.length === 0) {
+if (count.length === 0) {
   console.log('No argument');
 };
-else if (name.length === 1) {
+else if (count.length === 1) {
   console.log('Argument found');
 } else {
   console.log('Argument found');
 };
-name();*/
+name();
 
 /*let input = prompt ('Enter arguments separated by spaces:');
 let args = input ? input.trim().split(" "): [];
@@ -21,7 +21,7 @@ if (args.length===0 || args[0] === " "){
 } else {
   console.log ('Argument found')
 }; */
-function noofarguments(...args){
+/*function noofarguments(...args){
   const count = args.length; 
   if (count.length === 0) {
   console.log('No argument');
@@ -33,4 +33,4 @@ function noofarguments(...args){
 }
 noofarguments(3, 5, 'lina'); 
 noofarguments('pear');
-noofarguments();
+noofarguments();*/
