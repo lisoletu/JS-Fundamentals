@@ -11,9 +11,14 @@ if (name.length === 0) {
   console.log('Arguments found');
 };*/
 
-function name(){
-    console.log ('No argument');
-    console.log ('Argument found');
-    console.log ('Argument found'); 
+function noofarguments(...args){
+  const count = args.length; 
+  if (count.length === 0) {
+  console.log('No argument');
+} else if (count.length === 1) {
+  console.log('Argument found', args[0]);
+} else {
+  console.log(`${count} Arguments found `);
 };
-name();
+}
+noofarguments('pear', '6'); 
