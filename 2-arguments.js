@@ -1,4 +1,4 @@
-const name='liso'
+function name='liso' {
 const count = liso.length
 if (count.length === 0) {
   console.log('No argument');
@@ -8,7 +8,10 @@ else if (count.length === 1) {
 } else {
   console.log('Argument found');
 };
-name();
+}
+name(3,5,4);
+name (6);
+name(); 
 
 /*let input = prompt ('Enter arguments separated by spaces:');
 let args = input ? input.trim().split(" "): [];
