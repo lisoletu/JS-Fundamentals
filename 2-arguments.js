@@ -11,16 +11,15 @@ if (name.length === 0) {
   console.log('Arguments found');
 };*/
 
-function noofarguments(...args){
-  const count = args.length; 
-  if (count.length === 0) {
-  console.log('No argument');
-} else if (count.length === 1) {
-  console.log('Argument found', args[0]);
-} else {
-  console.log(`${count} Arguments found `);
-};
+let input = prompt ('Enter arguments separated by spaces:');
+let args = input ? input.trim().split(" "): [];
+
+if (args.length===0 || args[0] === " "){
+  console.log ('No argument');
 }
-noofarguments(3,5, 'lina'); 
-noofarguments('pear');
-noofarguments();
+  else if(args.length===1) {
+  console.log ('Argument found');
+} else {
+  console.log ('Argument found')
+}; 
+
